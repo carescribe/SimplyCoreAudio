@@ -1,3 +1,11 @@
+# Carescribe fork notes
+
+This is a fork of the original project because
+
+At time of publishing, the `develop` branch of this library do not support use cases in CLI applications.
+A [PR](https://github.com/rnine/SimplyCoreAudio/pull/51) was merged that fixed this this but various code changes from 9th April on the `develop` branch broke other parts of the library.
+The `main` branch in this fork removes those changes and keeps only the fixes to PR 51.[]
+
 ## 🔊 SimplyCoreAudio
 
 [![Platform](https://img.shields.io/badge/Platforms-macOS%20-4E4E4E.svg?colorA=28a745)](https://github.com/rnine/SimplyCoreAudio)
